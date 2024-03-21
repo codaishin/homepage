@@ -1,0 +1,23 @@
+{
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.inlayHints.enabled": "off",
+	"editor.formatOnSave": true,
+	"editor.rulers": [
+		100
+	],
+	"editor.tabSize": 2,
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "always",
+	},
+	"typescript.format.enable": false,
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"cSpell.words": [
+		"Codaishin",
+		"tailwindcss"
+	],
+}
