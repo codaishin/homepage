@@ -13,6 +13,8 @@ module.exports = {
 	rules: {
 		'no-var': 'error',
 		'prefer-const': 'error',
+		'no-unused-vars': 'error',
+		'sort-imports': 'error',
 
 		'@stylistic/js/no-mixed-spaces-and-tabs': 'error',
 		'@stylistic/js/jsx-quotes': ['error', 'prefer-single'],

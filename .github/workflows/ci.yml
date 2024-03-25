@@ -18,3 +18,14 @@ jobs:
       run: npm i
     - name: Lint
       run: npm run lint
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        lfs: true
+    - name: Install
+      run: npm i
+    - name: Lint
+      run: npm run test:once
