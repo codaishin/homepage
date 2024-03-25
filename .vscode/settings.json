@@ -10,17 +10,18 @@
 	"editor.indentSize": "tabSize",
 	"editor.insertSpaces": false,
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "always",
+		"source.fixAll": "always",
 	},
 	"cSpell.words": [
 		"Codaishin",
 		"tailwindcss"
 	],
-	"[yaml]": {
+	"[github-actions-workflow]": {
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
 	},
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
-	}
+	},
+	"editor.detectIndentation": false
 }
