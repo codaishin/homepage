@@ -13,9 +13,6 @@
 		"source.fixAll.eslint": "always",
 	},
 	"typescript.format.enable": false,
-	"files.associations": {
-		"*.css": "tailwindcss"
-	},
 	"cSpell.words": [
 		"Codaishin",
 		"tailwindcss"
