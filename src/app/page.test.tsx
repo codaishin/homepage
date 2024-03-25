@@ -1,15 +1,14 @@
 import '@testing-library/jest-dom'
 
-import { render, screen } from '@testing-library/react'
-
 import Page from './page'
+import { render } from '@testing-library/react'
 
 describe('Page', () => {
 	it('renders message', () => {
-		render(<Page/>)
+		const { getByRole } = render(<Page/>)
 
-		const header = screen.getByRole('heading', { level: 1 })
+		const h1 = getByRole('heading', { level: 1 })
 
-		expect(header).toHaveTextContent('This is my site!! Be amazed!!')
+		expect(h1).toHaveTextContent('This is my site!! Be amazed!!')
 	})
 })
