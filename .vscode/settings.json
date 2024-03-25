@@ -12,7 +12,6 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "always",
 	},
-	"typescript.format.enable": false,
 	"cSpell.words": [
 		"Codaishin",
 		"tailwindcss"
@@ -20,5 +19,8 @@
 	"[yaml]": {
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
 	}
 }
