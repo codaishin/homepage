@@ -20,4 +20,8 @@
 		"Codaishin",
 		"tailwindcss"
 	],
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+	}
 }
