@@ -16,8 +16,10 @@ jobs:
         lfs: true
     - name: Install
       run: npm i
-    - name: Lint
+    - name: Lint JS/TS
       run: npm run lint
+    - name: Lint CSS
+      run: npm run lint:css
   test:
     runs-on: ubuntu-latest
     steps:
