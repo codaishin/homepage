@@ -1,0 +1,44 @@
+.main {
+	padding-top: 6rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
+}
+
+.navigation {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+
+	li {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	a {
+		&.link.active {
+			background-color: rgb(var(--foreground-rgb));
+			color: rgb(var(--background-start-rgb));
+		}
+
+		&:link {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		&:visited {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		&:active {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+}

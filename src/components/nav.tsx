@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../css/page.module.css'
+import styles from '../css/page.module.scss'
 
 type PathLookup = Record<string, string>
 type LinkProps = { className: string, href: string, children: React.ReactNode }

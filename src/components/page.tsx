@@ -1,4 +1,4 @@
-import styles from '../css/page.module.css'
+import styles from '../css/page.module.scss'
 
 interface PageProps<T> {
 	children?: React.ReactNode,
