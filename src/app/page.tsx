@@ -1,8 +1,11 @@
-import styles from './page.module.css'
+import { Navigation } from '../components/nav'
+import { Page } from '@/components/page'
 
-const Page = () =>
-	<h1 className={ styles.main }>
-		This is my site!! Be amazed!!
-	</h1>
+const Home = () =>
+	<Page path='Home' navigation={ Navigation }>
+		<h1>
+			This is my site!! Be amazed!!
+		</h1>
+	</Page>
 
-export default Page
+export default Home

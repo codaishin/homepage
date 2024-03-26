@@ -18,14 +18,12 @@ module.exports = {
 
 		'@stylistic/js/no-mixed-spaces-and-tabs': 'error',
 		'@stylistic/js/jsx-quotes': ['error', 'prefer-single'],
-		'@stylistic/js/comma-dangle': ['error', 'always-multiline'],
 		'@stylistic/js/arrow-spacing': 'error',
 		'@stylistic/js/keyword-spacing': 'error',
 		'@stylistic/js/no-multi-spaces': 'error',
 		'@stylistic/js/space-in-parens': 'error',
 		'@stylistic/js/space-infix-ops': 'error',
 		'@stylistic/js/space-unary-ops': 'error',
-		'@stylistic/js/template-curly-spacing': 'error',
 		'@stylistic/js/semi': ['error', 'never'],
 		'@stylistic/js/dot-location': ['error', 'property'],
 		'@stylistic/js/max-len': ['error', { code: 100, tabWidth: 2, ignoreStrings: false }],
@@ -38,6 +36,19 @@ module.exports = {
 		'@stylistic/ts/quotes': ['error', 'single'],
 		'@stylistic/ts/brace-style': ['error', '1tbs'],
 		'@stylistic/ts/key-spacing': 'error',
+		'@stylistic/ts/comma-dangle': ['error', 'always-multiline'],
+		'@stylistic/ts/comma-spacing': 'error',
+		'@stylistic/ts/member-delimiter-style': ['error', {
+			multiline: {
+				delimiter: 'comma',
+				requireLast: true,
+			},
+			singleline: {
+				delimiter: 'comma',
+				requireLast: false,
+			},
+		}],
+		'@stylistic/ts/block-spacing': 'error',
 
 		'react/jsx-tag-spacing': ['error', {
 			closingSlash: 'never',
